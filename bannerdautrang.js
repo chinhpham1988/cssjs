@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://goo.gl/gGeDVo' target='_blank'><http://www.hoanglongco.com/uploads/quangcao/Cong-ty-Hoang-Long-.JPG' width='500px'/><br/>cung cấp thùng carton</a>. LH: Mr Chinh 0901475456 . <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://goo.gl/gGeDVo' target='_blank'><img src='http://www.hoanglongco.com/uploads/quangcao/Cong-ty-Hoang-Long-.JPG' width='500px'/><br/>cung cấp thùng carton</a>. LH: Mr Chinh 0901475456 . <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
